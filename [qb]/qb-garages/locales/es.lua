@@ -12,6 +12,36 @@ local Translations = {
     success = {
         vehicle_parked = "vehículo estacionado",
     },
+    menu = {
+        header = {
+            house_car = "House Garage %{value}",
+            public_car = "Garaje Público %{value}",
+            public_sea = "Public Boathouse %{value}",
+            public_air = "Public Hangar %{value}",
+            job_car = "Job Garage %{value}",
+            job_sea = "Job Boathouse %{value}",
+            job_air = "Job Hangar %{value}",
+            gang_car = "Gang Garage %{value}",
+            gang_sea = "Gang Boathouse %{value}",
+            gang_air = "Gang Hangar %{value}",
+            depot_car = "Depot %{value}",
+            depot_sea = "Depot %{value}",
+            depot_air = "Depot %{value}",
+            vehicles = "Available Vehicles",
+            depot = "%{value} [ $%{value2} ]",
+            garage = "%{value} [ %{value2} ]",
+        },
+        leave = {
+            car = "⬅ Leave Garage",
+            sea = "⬅ Leave Boathouse",
+            air = "⬅ Leave Hangar",
+        },
+        text = {
+            vehicles = "View stored vehicles!",
+            depot = "Plate: %{value}<br>Fuel: %{value2} | Engine: %{value3} | Body: %{value4}",
+            garage = "State: %{value}<br>Fuel: %{value2} | Engine: %{value3} | Body: %{value4}",
+        }
+    },
     info = {
         car_e = "E - Garaje",
         sea_e = "E - Depósito de Barcos",
